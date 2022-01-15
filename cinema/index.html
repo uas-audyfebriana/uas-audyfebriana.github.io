@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="image_slider.css">
+    <link rel="stylesheet" href="thumbnail.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Cinema Kota</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="multi_color_border"></div>
+        <div class="top_nav">
+            <div class="left">
+                <div class="logo">
+                    <img src="gambar/logo_cinema.jpg" width="60px" height="60px">
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Media Centre</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Venue Hire</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom_nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Book Now</a></li>
+                <li><a href="#">Films</a></li>
+                <li><a href="#">Cinemas</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Fun Stuff</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="content-body">
+            <!-- row -->
+            <div class="row g-1">
+                <div class="col-xl-8">
+                    <div class="card">
+                        <div class=malasngoding-slider>
+                            <div class=isi-slider>
+                                <img src="gambar/1.jpg" alt="Gambar 1">
+                                <img src="gambar/2.jpg" alt="Gambar 2">
+                                <img src="gambar/3.png" alt="Gambar 3">
+                                <img src="gambar/4.jpg" alt="Gambar 3">
+                                <img src="gambar/5.jpg" alt="Gambar 3">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="column">
+                                    <a target="_blank">
+                                        <img id="thumbnail" src="gambar/1.jpg">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a target="_blank">
+                                        <img id="thumbnail" src="gambar/2.jpg">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a target="_blank">
+                                        <img id="thumbnail" src="gambar/3.png">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a target="_blank">
+                                        <img id="thumbnail" src="gambar/4.jpg">
+                                    </a>
+                                </div>
+                                <div class="column">
+                                    <a target="_blank">
+                                        <img id="thumbnail" src="gambar/5.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="card">
+                        <div class="card-header border-0 pb-0">
+                            <h5>Book Now</h5>
+                            <hr>
+                        </div>
+                        <div class="card-body">
+                            <select class="form-control" name="cinema" id="cinema" aria-placeholder="Select Cinema">
+                                <option value="" selected>Select Cinema</option>
+                                <option value="">Cinema XXI Duta Mall</option>
+                                <option value="">KCM Belda</option>
+                            </select><br>
+                            <select class="form-control" name="film" id="film" aria-placeholder="Select Film">
+                                <option value="" selected>Select Film</option>
+                                <option value="">Laskar Pelangi</option>
+                                <option value="">Warkop DKI Reborn: Jangkrik Boss!</option>
+                                <option value="">Manusia Setengah Salmon</option>
+                            </select><br>
+                            <select class="form-control" name="date" id="film" aria-placeholder="Select Date">
+                                <option value="" selected>Select Date</option>
+                                <option value="">Senin, 17-01-2022</option>
+                                <option value="">Selasa, 18-01-2022</option>
+                                <option value="">Rabu, 19-01-2022</option>
+                                <option value="">Kamis, 20-01-2022</option>
+                                <option value="">Jumat, 21-01-2022</option>
+                                <option value="">Sabtu, 22-01-2022</option>
+                                <option value="">Minggu, 23-01-2022</option>
+                            </select><br>
+                            <select class="form-control" name="film" id="film" aria-placeholder="Select Time">
+                                <option value="" selected>Select Time</option>
+                                <option value="">12:00</option>
+                                <option value="">14:00</option>
+                                <option value="">16:00</option>
+                                <option value="">19:00</option>
+                                <option value="">21:00</option>
+                            </select><br>
+
+                            <p align="right"><button type="button" class="btn btn-info"> Book Now ! </button></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-5">
+                    <div class="card">
+                        <div class="card-header border-0 pb-0">
+                            <h5>Film Reviews</h5>
+                            <hr>
+                        </div>
+                        <div class="card-body">
+                            <table width="100%" style="border : 2px solid #efefef;">
+                                <tr align="center">
+                                    <td><a href="#">Now Showing</a></td>
+                                    <td><a href="#">Coming Soon</a></td>
+                                </tr>
+                            </table>
+                            <table width="100%" style="border : 2px solid #efefef;">
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td><img src="gambar/film1.jpg" width="120px" height="250px"
+                                                        style="margin-left: 40px; margin-right: 20px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table width="90%" align="center"  style="margin-left: 20px; margin-right: 20px;">
+                                                        <tr>
+                                                            <td><small>Find Cinema</small></td>
+                                                            <td><small>Book Now</small></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td colspan="2"
+                                                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium;">
+                                                    Laskar Pelangi</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p
+                                                        style="margin: 10px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: small; text-align: justify;">
+                                                        Film Laskar Pelangi menceritakan tentang 10 anak yang bersekolah
+                                                        di sebuah pondok sekolah dasar, di Belitong. Bersetting pada
+                                                        tahun
+                                                        1970-an. Film ini merupakan karya adaptasi dari buku Laskar
+                                                        Pelangi yang ditulis oleh Andrea Hirata.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                </td>
+                                                <td style="text-align: right;">
+                                                    <small><a href="#">More</a></small>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td><img src="gambar/film2.jpg" width="120px" height="250px"
+                                                        style="margin-left: 40px; margin-right: 20px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table width="90%" align="center"  style="margin-left: 20px; margin-right: 20px;">
+                                                        <tr>
+                                                            <td><small>Find Cinema</small></td>
+                                                            <td><small>Book Now</small></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td colspan="2"
+                                                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium;">
+                                                    Warkop DKI Reborn: Jangkrik Boss!</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p
+                                                        style="margin: 10px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: small; text-align: justify;">
+                                                        Film yang menghidupkan kembali legenda trio komedi Warkop. Dono,
+                                                        Kasino dan Indro kembali beraksi di tengah hiruk pikuknya kota
+                                                        DKI Jakarta.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                </td>
+                                                <td style="text-align: right;">
+                                                    <small><a href="#">More</a></small>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td><img src="gambar/film3.jpg" width="120px" height="250px"
+                                                        style="margin-left: 40px; margin-right: 20px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table width="90%" align="center"  style="margin-left: 20px; margin-right: 20px;">
+                                                        <tr>
+                                                            <td><small>Find Cinema</small></td>
+                                                            <td><small>Book Now</small></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td colspan="2"
+                                                    style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: medium;">
+                                                    Manusia Setengah Salmon</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <p
+                                                        style="margin: 10px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: small; text-align: justify;">
+                                                        Ketika ibunya memutuskan pindah rumah, Dika justru berusaha
+                                                        pindah dari hal-hal yang selama ini dia susah untuk lepaskan:
+                                                        cerita cintanya yang lalu hingga hubungannya dengan bapaknya.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                    <span style="color: yellow;">&#9733;</span>
+                                                </td>
+                                                <td style="text-align: right;">
+                                                    <small><a href="#">More</a></small>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3">
+                    <div class="user_goal">
+                        <div class="user_goal1">
+                            <div class="card">
+                                <div class="card-header border-0 pb-0">
+                                    <h5>User Goal 1</h5>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text" style="text-align: justify;">Lorem ipsum dolor, sit amet
+                                    consectetur adipisicing elit. Sapiente
+                                    asperiores iste, omnis adipisci molestiae mollitia tempora hic sed nesciunt
+                                    explicabo magni dolore architecto ipsa animi? Excepturi aut quaerat ipsa omnis!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="user_goal2">
+                            <div class="card">
+                                <div class="card-header border-0 pb-0">
+                                    <h5>User Goal 2</h5>
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="card-body border-0 pb-0">
+                                <p class="card-text" style="text-align: justify;">Lorem ipsum dolor sit, amet
+                                    consectetur adipisicing elit. Saepe assumenda fugit, reiciendis mollitia nulla
+                                    possimus quasi, eius officiis earum atque corrupti nesciunt consectetur dolor ad non
+                                    blanditiis. Cumque, expedita provident.
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+                    <div class="column3">
+                        <div class="find_cinema">
+                            <div class="card">
+                                <div class="card-header border-0 pb-0">
+                                    <h5>Find Cinema</h5>
+                                    <hr>
+                                </div>
+                                <div class="card-body">
+                                    <select class="form-control" name="cinema" id="cinema"
+                                        aria-placeholder="Select Cinema">
+                                        <option value="" selected>Select Cinema</option>
+                                        <option value="">Cinema XXI Duta Mall</option>
+                                        <option value="">KCM Belda</option>
+                                    </select><br>
+                                    <p style="margin-left: 20px;">or</p>
+                                    <input class="form-control" type="text" name="" id=""
+                                        placeholder="Enter town or postcode"><br>
+                                    <label for="remember"><input type="checkbox"> Remember my local
+                                        cinema</label><br><br>
+
+                                    <p align="right"><button type="button" class="btn btn-info"> Book Now ! </button>
+                                    </p><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login_register">
+                            <div class="card">
+                                <div class="card-header border-0 pb-0">
+                                    <h5>Login/Register</h5>
+                                    <hr>
+                                </div>
+                                <div class="card-body">
+                                    <input class="form-control" type="text" name="" id="" placeholder="Email Address">
+                                    <br><br>
+                                    <input class="form-control" type="text" name="" id="" placeholder="Password">
+                                    <br><br>
+
+                                    <p align="right"><button type="button" class="btn btn-info"> Go </button></p><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="location">
+                            <div class="card">
+                                <div class="card">
+                                    <div class="card-header border-0 pb-0">
+                                        <h5>Location based promo</h5>
+                                        <hr>
+                                    </div>
+                                    <div class="card-body border-0 pb-0">
+                                        <p class="card-text" style="text-align: justify;">Lorem ipsum dolor, sit amet
+                                            consectetur adipisicing elit. Provident dolore ratione recusandae mollitia
+                                            dolorum, sit excepturi vel, perspiciatis nobis, ex in molestiae. Ex vitae
+                                            eaque aspernatur nam quaerat asperiores accusamus.
+                                        </p>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-8">
+                    <div class="card">
+                        <div class="card-header border-0 pb-0">
+                            <table width="100%">
+                                <tr>
+                                    <th>
+                                        <p>Keep up to date</p>
+                                    </th>
+                                    <td>
+                                        <p><input class="form-control" type="text" placeholder="Email Address"></p>
+                                    </td>
+                                    <td>
+                                        <p style="text-align: right;"><button class="btn btn-info">Sign Up</button></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class='footer-nav'>
+            <div class='ct-wrapper-footer'>
+                <ul>
+                    <li><a href='#'>Corporate Site</a></li>
+                    <li><a href='#'>Disclaimer</a></li>
+                    <li><a href='#'>Term of Use</a></li>
+                    <li><a href='#'>Privacy</a></li>
+                    <li><a href='#'>Site Map</a></li>
+                    <li><a href='#'>Copyright &copy;2022 Audy Febriana</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
